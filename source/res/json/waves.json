@@ -1,0 +1,129 @@
+{
+	"waves": [{
+			"comment": "Don't forget to build 2 or 3 towers",
+			"groups": [{
+				"count": 5,
+				"interval": 0.9,
+				"start": 0.0,
+				"zombie": {
+					"speed": 50.0,
+					"life": 6
+				}
+			}]
+		},
+		{
+			"groups": [{
+					"count": 10,
+					"interval": 0.5,
+					"start": 0.0,
+					"zombie": {
+						"speed": 70.0,
+						"life": 6
+					}
+				}
+			]
+		},
+		{
+			"groups": [{
+				"count": 9,
+				"interval": 0.0,
+				"start": 0.0,
+				"zombie": {
+					"speed": 60.0,
+					"life": 8,
+					"radius": 18.0
+				}
+			}]
+		},
+		{
+			"groups": [{
+				"count": 7,
+				"interval": 0.9,
+				"start": 0.0,
+				"zombie": {
+					"speed": 50.0,
+					"life": 6
+				}
+			},
+			{
+				"count": 6,
+				"interval": 0.2,
+				"start": 5.0,
+				"zombie": {
+					"speed": 60.0,
+					"life": 8,
+					"radius": 18.0
+				}
+			}]
+		},
+		{
+			"comment": "Your first boss",
+			"groups": [{
+				"count": 1,
+				"interval": 0.0,
+				"start": 0.0,
+				"zombie": {
+					"speed": 40.0,
+					"life": 230.0,
+					"radius": 30.0,
+					"damage": 2
+				}
+			}]
+		},
+		{
+			"groups": [{
+				"count": 20,
+				"interval": 0.9,
+				"start": 0.0,
+				"zombie": {
+					"speed": 50.0,
+					"life": 6
+				}
+			},
+			{
+				"count": 15,
+				"interval": 0.2,
+				"start": 3.0,
+				"zombie": {
+					"speed": 60.0,
+					"life": 8,
+					"radius": 18.0
+				}
+			}]
+		},
+		{
+			"comment": "Have you upgraded your towers?",
+			"groups": [{
+				"count": 30,
+				"interval": 0.1,
+				"start": 0.0,
+				"zombie": {
+					"speed": 50.0,
+					"life": 7
+				}
+			}]
+		},
+		{
+			"groups": [{
+				"count": 20,
+				"interval": 0.0,
+				"start": 0.0,
+				"zombie": {
+					"speed": 50.0,
+					"life": 7
+				}
+			},
+			{
+				"count": 1,
+				"interval": 0.0,
+				"start": 0.0,
+				"zombie": {
+					"speed": 40.0,
+					"life": 230.0,
+					"radius": 30.0,
+					"damage": 2
+				}
+			}]
+		}
+	]
+}
